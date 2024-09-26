@@ -39,16 +39,19 @@ The application uses the Edamam Recipe Search API to fetch recipes based on sear
 ## Home Component
 The Home component renders the main layout for the homepage. It includes:
 
-- Header: Displays the app's title ("Taste the World with FlavorVerse!").
+- Header: Displays the app's title ("Taste the World with FlavorVerse!")
+  
+![Homepage](screenshots/homepage.png)
+
 - Recipes Section: A section where the list of recipes is displayed.
+![Recipe](screenshots/img.png)
+
 ## RecipeDetail Component
 The RecipeDetail component is responsible for displaying the details of a single recipe and suggesting related recipes. It includes:
 
 - Header: Displays the recipe's name and image.
 - Details Section: Displays calories, total time, servings, ingredients, and health labels.
 - Related Recipes: Suggests similar recipes based on the selected one.
-
-![Homepage](screenshots/homepage.png)
 
 ![DetailsPage](screenshots/detailspage.png)
 
